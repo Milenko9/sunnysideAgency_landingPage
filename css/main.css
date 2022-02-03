@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:wght@700;900&display=swap");
+.main-header {
+  width: 375px;
+  height: 540px;
+  margin: 0 auto;
+  background-image: url("../img/mobile/image-header.jpg");
+  background-repeat: no-repeat;
+  background-size: cover; }
+  .main-header .navbar {
+    padding: 20px 20px 0 20px;
+    position: relative; }
+    .main-header .navbar .mobileMenu {
+      width: 335px;
+      background-color: white;
+      position: absolute;
+      top: 100px;
+      text-align: center; }
+      .main-header .navbar .mobileMenu::before {
+        content: '';
+        border: 30px solid;
+        height: 30px;
+        border-top-color: transparent;
+        border-right-color: white;
+        border-left: 0;
+        border-bottom: 0;
+        position: absolute;
+        top: -30px;
+        right: 0; }
+      .main-header .navbar .mobileMenu a {
+        padding: 15px 0; }
+  .main-header .navbar-light .navbar-toggler {
+    color: white;
+    padding: 0;
+    border: none; }
+    .main-header .navbar-light .navbar-toggler:focus {
+      text-decoration: none;
+      outline: 0;
+      box-shadow: none; }
+  .main-header .navbar-light .navbar-toggler-icon {
+    background-image: url("../img/icon-hamburger.svg");
+    width: 1.2em;
+    height: 1.2em; }
+  .main-header .headerTitle {
+    text-align: center;
+    margin-top: 90px; }
+    .main-header .headerTitle h1 {
+      text-transform: uppercase;
+      color: white;
+      font-family: 'Fraunces', serif;
+      font-size: 40px; }
+  .main-header .arrowDown {
+    height: 120px;
+    text-align: center;
+    margin-top: 50px; }
+
+body {
+  font-family: 'Fraunces', serif;
+  font-family: 'Barlow', sans-serif; }
+
+/*# sourceMappingURL=main.css.map */
