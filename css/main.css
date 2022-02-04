@@ -10,10 +10,11 @@
     padding: 20px 20px 0 20px;
     position: relative; }
     .main-header .navbar .mobileMenu {
-      width: 335px;
+      width: 310px;
       background-color: white;
       position: absolute;
       top: 100px;
+      right: 20px;
       text-align: center; }
       .main-header .navbar .mobileMenu::before {
         content: '';
@@ -53,10 +54,41 @@
     text-align: center;
     margin-top: 50px; }
 
+@media (min-width: 1200px) {
+  .main-header {
+    width: 100%;
+    height: 800px;
+    background-image: url("../img/desktop/image-header.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; }
+    .main-header .navbar {
+      padding: 30px 60px 0 60px; }
+      .main-header .navbar .navbar-brand {
+        width: 50%; }
+      .main-header .navbar .desktopMenu {
+        width: 50%;
+        background-color: transparent;
+        position: static;
+        justify-content: flex-end; }
+        .main-header .navbar .desktopMenu::before {
+          display: none; }
+        .main-header .navbar .desktopMenu a {
+          color: white;
+          padding: 15px 30px; }
+    .main-header .headerTitle h1 {
+      letter-spacing: 5px; }
+    .main-header .arrowDown {
+      margin-top: 180px; } }
 .mainDiv {
   width: 375px;
   margin: 0 auto;
   background-color: blue; }
+  .mainDiv .firstArticle .yellowEgg, .mainDiv .firstArticle .pinkGlass, .mainDiv .secondArticle .yellowEgg, .mainDiv .secondArticle .pinkGlass {
+    width: 100%;
+    height: 310px;
+    background-image: url("../img/mobile/image-transform.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; }
   .mainDiv .firstArticle .txtYellowEgg, .mainDiv .firstArticle .txtPinkGlass, .mainDiv .secondArticle .txtYellowEgg, .mainDiv .secondArticle .txtPinkGlass {
     background-color: white;
     text-align: center;
@@ -77,12 +109,18 @@
       text-decoration: none;
       color: #23303e;
       box-shadow: 0px 9px 20px 0px #fad400; }
+  .mainDiv .secondArticle .pinkGlass {
+    background-image: url("../img/mobile/image-stand-out.jpg"); }
   .mainDiv .secondArticle .txtPinkGlass h2 {
     padding: 70px 40px 10px; }
   .mainDiv .secondArticle .txtPinkGlass a {
     box-shadow: 0px 9px 20px 0px #fc7766; }
   .mainDiv .graphicDesign, .mainDiv .photography {
-    position: relative; }
+    height: 600px;
+    position: relative;
+    background-image: url("../img/mobile/image-graphic-design.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; }
     .mainDiv .graphicDesign .txtGraphicDesign, .mainDiv .graphicDesign .txtPhotography, .mainDiv .photography .txtGraphicDesign, .mainDiv .photography .txtPhotography {
       position: absolute;
       top: 400px;
@@ -95,10 +133,12 @@
         padding: 15px 12px 0;
         color: #25564b;
         font-size: 17px; }
-  .mainDiv .photography .txtPhotography h3 {
-    color: #19536b; }
-  .mainDiv .photography .txtPhotography p {
-    color: #19536b; }
+  .mainDiv .photography {
+    background-image: url("../img/mobile/image-photography.jpg"); }
+    .mainDiv .photography .txtPhotography h3 {
+      color: #19536b; }
+    .mainDiv .photography .txtPhotography p {
+      color: #19536b; }
   .mainDiv .clientTestimonials {
     background-color: white;
     text-align: center;
@@ -128,11 +168,27 @@
       padding-bottom: 60px; }
     .mainDiv .clientTestimonials .jennie h6 {
       padding-bottom: 0; }
-  .mainDiv .sunnysideImages {
-    height: 375px; }
-    .mainDiv .sunnysideImages img {
+  .mainDiv .sunnysideGallery {
+    background-color: red;
+    width: 100%;
+    height: 370px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0; }
+    .mainDiv .sunnysideGallery .milkBottles, .mainDiv .sunnysideGallery .orangeCup, .mainDiv .sunnysideGallery .cone, .mainDiv .sunnysideGallery .sugarCubes {
       width: 50%;
-      float: left; }
+      height: 50%;
+      background-color: green;
+      background-image: url("../img/mobile/image-gallery-milkbottles.jpg");
+      background-repeat: no-repeat;
+      background-size: cover; }
+    .mainDiv .sunnysideGallery .orangeCup {
+      background-image: url("../img/mobile/image-gallery-orange.jpg"); }
+    .mainDiv .sunnysideGallery .cone {
+      background-image: url("../img/mobile/image-gallery-cone.jpg"); }
+    .mainDiv .sunnysideGallery .sugarCubes {
+      background-image: url("../img/mobile/image-gallery-sugar-cubes.jpg"); }
 
 .footerDiv {
   width: 375px;
@@ -168,6 +224,15 @@
       display: flex;
       justify-content: space-between; }
 
+@media (min-width: 1200px) {
+  .footerDiv {
+    width: 100%; }
+    .footerDiv .footerNav {
+      width: 25%;
+      margin: 0 auto; }
+    .footerDiv .footerIcons {
+      width: 25%;
+      margin: 0 auto; } }
 body {
   font-family: 'Fraunces', serif;
   font-family: 'Barlow', sans-serif; }

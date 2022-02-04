@@ -9,10 +9,11 @@
     padding: 20px 20px 0 20px;
     position: relative;
     .mobileMenu {
-      width: 335px;
+      width: 310px;
       background-color: $white;
       position: absolute;
       top: 100px;
+      right: 20px;
       text-align: center;
       &::before {
         content: '';
@@ -62,5 +63,43 @@
     height: 120px;
     text-align: center;
     margin-top: 50px;
+  }
+}
+
+
+@media (min-width: 1200px) {
+  .main-header {
+    width: 100%;
+    height: 800px;
+    background-image: url("../img/desktop/image-header.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    .navbar {
+      padding: 30px 60px 0 60px;
+      .navbar-brand {
+        width: 50%;
+      }
+      .desktopMenu {
+        width: 50%;
+        background-color: transparent;
+        position: static;
+        justify-content: flex-end;
+        &::before {
+          display: none;
+        }
+        a {
+          color: $white;
+          padding: 15px 30px;
+        }
+      }
+    }
+    .headerTitle {
+      h1 {
+        letter-spacing: 5px;
+      }
+    }
+    .arrowDown {
+      margin-top: 180px;
+    }
   }
 }

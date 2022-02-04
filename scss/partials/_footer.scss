@@ -43,3 +43,18 @@
     }
   }
 }
+
+
+@media (min-width: 1200px) {
+  .footerDiv {
+    width: 100%;
+    .footerNav {
+      width: 25%;
+      margin: 0 auto;
+    }
+    .footerIcons {
+      width: 25%;
+      margin: 0 auto;
+    }
+  }
+}

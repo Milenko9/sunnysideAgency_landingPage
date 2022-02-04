@@ -5,6 +5,11 @@
   .firstArticle, .secondArticle {
     .yellowEgg, .pinkGlass {
       // background-color: $yellow;
+      width: 100%;
+      height: 310px;
+      background-image: url("../img/mobile/image-transform.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
     }
     .txtYellowEgg, .txtPinkGlass {
       background-color: white;
@@ -33,7 +38,7 @@
   }
   .secondArticle {
     .pinkGlass {
-      // background-color: $yellow;
+      background-image: url("../img/mobile/image-stand-out.jpg");
     }
     .txtPinkGlass {
       h2 {
@@ -45,7 +50,11 @@
     }
   }
   .graphicDesign, .photography {
+    height: 600px;
     position: relative;
+    background-image: url("../img/mobile/image-graphic-design.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
     .txtGraphicDesign, .txtPhotography {
       position: absolute;
       top: 400px;
@@ -63,6 +72,7 @@
     }
   }
   .photography {
+    background-image: url("../img/mobile/image-photography.jpg");
     .txtPhotography {
       h3 {
         color: $darkBlue;
@@ -112,11 +122,30 @@
       }
     }
   }
-  .sunnysideImages {
-    height: 375px;
-    img {
+  .sunnysideGallery {
+    background-color: red;
+    width: 100%;
+    height: 370px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0;
+    .milkBottles, .orangeCup, .cone, .sugarCubes {
       width: 50%;
-      float: left;
+      height: 50%;
+      background-color: green;
+      background-image: url("../img/mobile/image-gallery-milkbottles.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    .orangeCup {
+      background-image: url("../img/mobile/image-gallery-orange.jpg");
+    }
+    .cone {
+      background-image: url("../img/mobile/image-gallery-cone.jpg");
+    }
+    .sugarCubes {
+      background-image: url("../img/mobile/image-gallery-sugar-cubes.jpg");
     }
   }
 }
