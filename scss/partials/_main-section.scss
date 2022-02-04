@@ -27,7 +27,7 @@
         text-transform: uppercase;
         text-decoration: none;
         color: $veryDarkDesaturatedCyan;
-        border-bottom: 3px solid $yellow;
+        box-shadow: 0px 9px 20px 0px $yellow;
       }
     }
   }
@@ -40,7 +40,7 @@
         padding: 70px 40px 10px;
       }
       a {
-        border-bottom: 3px solid #fc7766;
+        box-shadow: 0px 9px 20px 0px #fc7766;
       }
     }
   }
@@ -113,6 +113,7 @@
     }
   }
   .sunnysideImages {
+    height: 375px;
     img {
       width: 50%;
       float: left;

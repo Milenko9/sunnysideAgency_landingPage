@@ -76,11 +76,11 @@
       text-transform: uppercase;
       text-decoration: none;
       color: #23303e;
-      border-bottom: 3px solid #fad400; }
+      box-shadow: 0px 9px 20px 0px #fad400; }
   .mainDiv .secondArticle .txtPinkGlass h2 {
     padding: 70px 40px 10px; }
   .mainDiv .secondArticle .txtPinkGlass a {
-    border-bottom: 3px solid #fc7766; }
+    box-shadow: 0px 9px 20px 0px #fc7766; }
   .mainDiv .graphicDesign, .mainDiv .photography {
     position: relative; }
     .mainDiv .graphicDesign .txtGraphicDesign, .mainDiv .graphicDesign .txtPhotography, .mainDiv .photography .txtGraphicDesign, .mainDiv .photography .txtPhotography {
@@ -128,9 +128,45 @@
       padding-bottom: 60px; }
     .mainDiv .clientTestimonials .jennie h6 {
       padding-bottom: 0; }
-  .mainDiv .sunnysideImages img {
-    width: 50%;
-    float: left; }
+  .mainDiv .sunnysideImages {
+    height: 375px; }
+    .mainDiv .sunnysideImages img {
+      width: 50%;
+      float: left; }
+
+.footerDiv {
+  width: 375px;
+  margin: 0 auto;
+  text-align: center;
+  background-color: #9bdbcb; }
+  .footerDiv .footerLogo a {
+    text-decoration: none; }
+  .footerDiv .footerLogo h2 {
+    color: #2c7566;
+    font-family: 'Fraunces', serif;
+    font-weight: bold;
+    font-size: 34px;
+    padding: 60px 0 40px; }
+  .footerDiv .footerNav {
+    padding: 0 30px 80px; }
+    .footerDiv .footerNav ul {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      justify-content: space-between; }
+      .footerDiv .footerNav ul li a {
+        text-decoration: none;
+        font-size: 18px;
+        color: #478e7f; }
+  .footerDiv .footerIcons {
+    padding: 0 100px 80px; }
+    .footerDiv .footerIcons ul {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      justify-content: space-between; }
 
 body {
   font-family: 'Fraunces', serif;
