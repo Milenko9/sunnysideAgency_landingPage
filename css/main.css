@@ -53,6 +53,85 @@
     text-align: center;
     margin-top: 50px; }
 
+.mainDiv {
+  width: 375px;
+  margin: 0 auto;
+  background-color: blue; }
+  .mainDiv .firstArticle .txtYellowEgg, .mainDiv .firstArticle .txtPinkGlass, .mainDiv .secondArticle .txtYellowEgg, .mainDiv .secondArticle .txtPinkGlass {
+    background-color: white;
+    text-align: center;
+    padding-bottom: 70px; }
+    .mainDiv .firstArticle .txtYellowEgg h2, .mainDiv .firstArticle .txtPinkGlass h2, .mainDiv .secondArticle .txtYellowEgg h2, .mainDiv .secondArticle .txtPinkGlass h2 {
+      font-family: 'Fraunces', serif;
+      font-size: 31px;
+      padding: 70px 15px 10px;
+      color: #23303e; }
+    .mainDiv .firstArticle .txtYellowEgg p, .mainDiv .firstArticle .txtPinkGlass p, .mainDiv .secondArticle .txtYellowEgg p, .mainDiv .secondArticle .txtPinkGlass p {
+      color: grey;
+      font-size: 18px;
+      line-height: 1.7;
+      padding: 0 20px 10px; }
+    .mainDiv .firstArticle .txtYellowEgg a, .mainDiv .firstArticle .txtPinkGlass a, .mainDiv .secondArticle .txtYellowEgg a, .mainDiv .secondArticle .txtPinkGlass a {
+      font-family: 'Fraunces', serif;
+      text-transform: uppercase;
+      text-decoration: none;
+      color: #23303e;
+      border-bottom: 3px solid #fad400; }
+  .mainDiv .secondArticle .txtPinkGlass h2 {
+    padding: 70px 40px 10px; }
+  .mainDiv .secondArticle .txtPinkGlass a {
+    border-bottom: 3px solid #fc7766; }
+  .mainDiv .graphicDesign, .mainDiv .photography {
+    position: relative; }
+    .mainDiv .graphicDesign .txtGraphicDesign, .mainDiv .graphicDesign .txtPhotography, .mainDiv .photography .txtGraphicDesign, .mainDiv .photography .txtPhotography {
+      position: absolute;
+      top: 400px;
+      text-align: center; }
+      .mainDiv .graphicDesign .txtGraphicDesign h3, .mainDiv .graphicDesign .txtPhotography h3, .mainDiv .photography .txtGraphicDesign h3, .mainDiv .photography .txtPhotography h3 {
+        font-family: 'Fraunces', serif;
+        color: #25564b;
+        font-size: 30px; }
+      .mainDiv .graphicDesign .txtGraphicDesign p, .mainDiv .graphicDesign .txtPhotography p, .mainDiv .photography .txtGraphicDesign p, .mainDiv .photography .txtPhotography p {
+        padding: 15px 12px 0;
+        color: #25564b;
+        font-size: 17px; }
+  .mainDiv .photography .txtPhotography h3 {
+    color: #19536b; }
+  .mainDiv .photography .txtPhotography p {
+    color: #19536b; }
+  .mainDiv .clientTestimonials {
+    background-color: white;
+    text-align: center;
+    padding: 65px 20px; }
+    .mainDiv .clientTestimonials h4 {
+      text-transform: uppercase;
+      color: grey;
+      font-family: 'Fraunces', serif;
+      letter-spacing: 5px;
+      font-size: 16px;
+      padding-bottom: 60px; }
+    .mainDiv .clientTestimonials .emily img, .mainDiv .clientTestimonials .thomas img, .mainDiv .clientTestimonials .jennie img {
+      width: 70px;
+      height: 70px;
+      border-radius: 50%; }
+    .mainDiv .clientTestimonials .emily p, .mainDiv .clientTestimonials .thomas p, .mainDiv .clientTestimonials .jennie p {
+      font-size: 17px;
+      color: grey;
+      padding: 30px 0 15px;
+      line-height: 1.8; }
+    .mainDiv .clientTestimonials .emily h5, .mainDiv .clientTestimonials .thomas h5, .mainDiv .clientTestimonials .jennie h5 {
+      font-family: 'Fraunces', serif;
+      font-size: 18px;
+      padding-bottom: 10px; }
+    .mainDiv .clientTestimonials .emily h6, .mainDiv .clientTestimonials .thomas h6, .mainDiv .clientTestimonials .jennie h6 {
+      color: #c0c0c0;
+      padding-bottom: 60px; }
+    .mainDiv .clientTestimonials .jennie h6 {
+      padding-bottom: 0; }
+  .mainDiv .sunnysideImages img {
+    width: 50%;
+    float: left; }
+
 body {
   font-family: 'Fraunces', serif;
   font-family: 'Barlow', sans-serif; }

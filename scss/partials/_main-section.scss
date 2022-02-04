@@ -1,0 +1,121 @@
+.mainDiv {
+  width: 375px;
+  margin: 0 auto;
+  background-color: blue;
+  .firstArticle, .secondArticle {
+    .yellowEgg, .pinkGlass {
+      // background-color: $yellow;
+    }
+    .txtYellowEgg, .txtPinkGlass {
+      background-color: white;
+      text-align: center;
+      padding-bottom: 70px;
+      h2 {
+        font-family: 'Fraunces', serif;
+        font-size: 31px;
+        padding: 70px 15px 10px;
+        color: $veryDarkDesaturatedCyan;
+      }
+      p {
+        color: grey;
+        font-size: 18px;
+        line-height: 1.7;
+        padding: 0 20px 10px;
+      }
+      a {
+        font-family: 'Fraunces', serif;
+        text-transform: uppercase;
+        text-decoration: none;
+        color: $veryDarkDesaturatedCyan;
+        border-bottom: 3px solid $yellow;
+      }
+    }
+  }
+  .secondArticle {
+    .pinkGlass {
+      // background-color: $yellow;
+    }
+    .txtPinkGlass {
+      h2 {
+        padding: 70px 40px 10px;
+      }
+      a {
+        border-bottom: 3px solid #fc7766;
+      }
+    }
+  }
+  .graphicDesign, .photography {
+    position: relative;
+    .txtGraphicDesign, .txtPhotography {
+      position: absolute;
+      top: 400px;
+      text-align: center;
+      h3 {
+        font-family: 'Fraunces', serif;
+        color: $darkDesaturatedCyan;
+        font-size: 30px;
+      }
+      p {
+        padding: 15px 12px 0;
+        color: $darkDesaturatedCyan;
+        font-size: 17px;
+      }
+    }
+  }
+  .photography {
+    .txtPhotography {
+      h3 {
+        color: $darkBlue;
+      }
+      p {
+        color: $darkBlue;
+      }
+    }
+  }
+  .clientTestimonials {
+    background-color: white;
+    text-align: center;
+    padding: 65px 20px;
+    h4 {
+      text-transform: uppercase;
+      color: grey;
+      font-family: 'Fraunces', serif;
+      letter-spacing: 5px;
+      font-size: 16px;
+      padding-bottom: 60px;
+    }
+    .emily, .thomas, .jennie {
+      img {
+        width: 70px;
+        height: 70px;
+        border-radius: 50%;
+      }
+      p {
+        font-size: 17px;
+        color: grey;
+        padding: 30px 0 15px;
+        line-height: 1.8;
+      }
+      h5 {
+        font-family: 'Fraunces', serif;
+        font-size: 18px;
+        padding-bottom: 10px;
+      }
+      h6 {
+        color: #c0c0c0;
+        padding-bottom: 60px;
+      }
+    }
+    .jennie {
+      h6 {
+        padding-bottom: 0;
+      }
+    }
+  }
+  .sunnysideImages {
+    img {
+      width: 50%;
+      float: left;
+    }
+  }
+}
