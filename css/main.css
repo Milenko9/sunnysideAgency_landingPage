@@ -28,7 +28,14 @@
         top: -30px;
         right: 0; }
       .main-header .navbar .mobileMenu a {
-        padding: 15px 0; }
+        padding: 15px 0;
+        margin: 0 100px; }
+      .main-header .navbar .mobileMenu .nav-link {
+        transition: 0.5s; }
+        .main-header .navbar .mobileMenu .nav-link:hover {
+          background-color: rgba(128, 128, 128, 0.1);
+          border-radius: 40px;
+          color: #fad400; }
   .main-header .navbar-light .navbar-toggler {
     color: white;
     padding: 0;
@@ -40,7 +47,10 @@
   .main-header .navbar-light .navbar-toggler-icon {
     background-image: url("../img/icon-hamburger.svg");
     width: 1.2em;
-    height: 1.2em; }
+    height: 1.2em;
+    transition: 0.3s; }
+    .main-header .navbar-light .navbar-toggler-icon:hover {
+      opacity: .4; }
   .main-header .headerTitle {
     text-align: center;
     margin-top: 90px; }
@@ -74,7 +84,8 @@
           display: none; }
         .main-header .navbar .desktopMenu a {
           color: white;
-          padding: 15px 30px; }
+          padding: 15px 30px;
+          margin: 0; }
     .main-header .headerTitle h1 {
       letter-spacing: 5px; }
     .main-header .arrowDown {
@@ -107,13 +118,18 @@
       text-transform: uppercase;
       text-decoration: none;
       color: #23303e;
-      box-shadow: 0px 9px 20px 0px #fad400; }
+      box-shadow: 0px 9px 20px 0px #fad400;
+      transition: 0.4s; }
+      .mainDiv .firstArticle .txtYellowEgg a:hover, .mainDiv .firstArticle .txtPinkGlass a:hover, .mainDiv .secondArticle .txtYellowEgg a:hover, .mainDiv .secondArticle .txtPinkGlass a:hover {
+        box-shadow: 0px 9px 0px 0px #fad400; }
   .mainDiv .secondArticle .pinkGlass {
     background-image: url("../img/mobile/image-stand-out.jpg"); }
   .mainDiv .secondArticle .txtPinkGlass h2 {
     padding: 70px 40px 10px; }
   .mainDiv .secondArticle .txtPinkGlass a {
     box-shadow: 0px 9px 20px 0px #fc7766; }
+    .mainDiv .secondArticle .txtPinkGlass a:hover {
+      box-shadow: 0px 9px 0px 0px #fc7766; }
   .mainDiv .graphicDesign, .mainDiv .photography {
     height: 600px;
     position: relative;
@@ -257,14 +273,14 @@
   margin: 0 auto;
   text-align: center;
   background-color: #9bdbcb; }
-  .footerDiv .footerLogo a {
-    text-decoration: none; }
   .footerDiv .footerLogo h2 {
-    color: #2c7566;
     font-family: 'Fraunces', serif;
     font-weight: bold;
     font-size: 34px;
     padding: 60px 0 40px; }
+  .footerDiv .footerLogo a {
+    text-decoration: none;
+    color: #2c7566; }
   .footerDiv .footerNav {
     padding: 0 30px 80px; }
     .footerDiv .footerNav ul {
@@ -276,7 +292,10 @@
       .footerDiv .footerNav ul li a {
         text-decoration: none;
         font-size: 18px;
-        color: #478e7f; }
+        color: #478e7f;
+        transition: 0.3s; }
+        .footerDiv .footerNav ul li a:hover {
+          color: white; }
   .footerDiv .footerIcons {
     padding: 0 100px 80px; }
     .footerDiv .footerIcons ul {
@@ -285,6 +304,10 @@
       margin: 0;
       display: flex;
       justify-content: space-between; }
+      .footerDiv .footerIcons ul img {
+        transition: 0.2s; }
+        .footerDiv .footerIcons ul img:hover {
+          opacity: .5; }
 
 @media (min-width: 1200px) {
   .footerDiv {

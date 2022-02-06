@@ -29,6 +29,15 @@
       }
       a {
         padding: 15px 0;
+        margin: 0 100px;
+      }
+      .nav-link {
+        transition: 0.5s;
+        &:hover {
+          background-color: transparentize(grey, .9);
+          border-radius: 40px;
+          color: $yellow;
+        }
       }
     }
   }
@@ -47,6 +56,10 @@
       background-image: url("../img/icon-hamburger.svg");
       width: 1.2em;
       height: 1.2em;
+      transition: 0.3s;
+      &:hover {
+        opacity: .4;
+      }
     }
   }
   .headerTitle {
@@ -90,6 +103,7 @@
         a {
           color: $white;
           padding: 15px 30px;
+          margin: 0;
         }
       }
     }
